@@ -1,0 +1,135 @@
+@import url(reset.css);
+@font-face {
+	src: url(../font/opensansbold.ttf);
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../font/gara.ttf);
+	font-family: 'Garamond';
+	font-weight: normal;
+}
+
+.ContentPage {
+	width: 100%;
+	height: 100%;
+}
+
+.HeaderTopbar {
+	width: 100%;
+	height: 60px;
+	background-color: #151514;
+}
+
+.HeaderTopbar__title {
+	padding: 0 50px 0 50px;
+	text-align: left;
+}
+
+.i {
+	width:30px; 
+    height:30px;
+    background-image:url(../img/favicon.png); 
+    background-size: contain;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+.HeaderTopbar__title h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #ffffff; 
+	text-transform: uppercase;
+	display:inline-block;
+	line-height: 60px;
+	padding-left: 10px;
+}
+
+.ImageBanner {
+	height: 100vh;
+	background-color: #151514;
+	background-image: url(../img/head.png); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.ImageBanner__context {
+	padding: 15% 50px 50px 50px;
+	text-align: left;
+}
+
+.ImageBanner__context p {
+	font-family: 'Garamond';
+	font-size: 45px;
+	color: #ffffff;
+	line-height: 1.3em;
+}
+
+.NavbarMenu {
+	width: 100%;
+	min-height: 70px;
+	background-color: #b0b0b0;
+}
+
+.NavbarMenu__links {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.NavbarMenu__links a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #151514;
+	text-transform: uppercase;
+	line-height: 70px; 
+	padding: 10px
+}
+
+.SectionAbout {
+	background-color: #ffffff;
+	background-image: url(../img/about.png); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.SectionAbout__title {
+	padding: 100px 50px 100px 50px;
+	text-align: center;
+}
+
+.SectionAbout__title h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	color: #151514; 
+	text-transform: uppercase;
+}
+
+.SectionAbout__context {
+	padding: 0 200px 100px 200px;
+	text-align: left;
+}
+
+.SectionAbout__context p {
+	font-family: 'Garamond';
+	font-size: 25px;
+	color: #151514;
+	line-height: 1.3em;
+}
+
+.SubbarMenu {
+	width: 100%;
+	min-height: 80px;
+	background-color: #151514;
+}
+
+.SubbarMenu img {
+	width: 55px;
+	height: 50px;
+	padding: 20px 50px 0 50px;
+}
