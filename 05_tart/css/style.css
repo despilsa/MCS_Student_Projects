@@ -56,7 +56,7 @@ p {
 	font-size: 15px;
 }
 
-.HeaderTopbar {
+.headerTopbar {
 	width: 100%;
 	height: 90px;
 	background-color: #c1f3f6;
@@ -66,7 +66,7 @@ p {
 	background-position: top center;
 }
 
-.ContentPage {
+.contentPage {
 	width: 100%;
 	min-height: 200px;
 	font-size: 0;
@@ -75,11 +75,11 @@ p {
 	box-sizing: border-box;
 }
 
-.ContentPage__title {
+.contentPage__title {
 	margin: 0 auto 80px;
 }
 
-.BigBlock {
+.bigBlock {
 	width: 100%;
 	height: auto;
 	/*border: 1px solid #000;*/
@@ -87,7 +87,7 @@ p {
     box-sizing: border-box; 
 }
 
-.MiddleBlock {
+.middleBlock {
 	width: 50%;
 	min-width: 400px;
 	height: auto;
@@ -98,7 +98,7 @@ p {
     box-sizing: border-box; 
 }
 
-.SmallBlock {
+.smallBlock {
 	width: 25%;
 	min-width: 300px;
 	height: auto;
@@ -112,7 +112,7 @@ p {
     box-sizing: border-box; 
 }
 
-.InBlock__text {
+.inBlock__text {
 	max-width: 650px;
 	margin: 120px auto;
 	-moz-box-sizing: border-box; 
@@ -151,11 +151,11 @@ p {
 	color: #7e063f;
 }
 
-section.ContentBg {
+section.contentBg {
 	background-color: #ff8ad8;
 }
 
-.FooterBar {
+.footerBar {
 	position: relative;
 	width: 100%;
 	height: 60px;
