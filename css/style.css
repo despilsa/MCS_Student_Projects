@@ -87,8 +87,19 @@
 	font-size: 14px;
 	color: #151514;
 	text-transform: uppercase;
+	text-decoration: none;
 	line-height: 70px; 
 	padding: 10px
+}
+
+.NavbarMenu__links a:visited {
+	color: #151514;
+	text-decoration: none;
+}
+
+.NavbarMenu__links a:active, .NavbarMenu__links a:hover {
+	color: #151514;
+	text-decoration: underline;
 }
 
 .SectionAbout {
