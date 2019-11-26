@@ -72,7 +72,7 @@ h4 {
 	font-size: 1rem;
 }
 
-p {
+p, li {
 	font-family: Georgia,"Times New Roman",Times,serif;
 	font-size: .8rem;
 	line-height: 1.5;
@@ -276,14 +276,14 @@ header nav li a:active, header nav li a:hover  {
 	padding: 40px 20px 30px 20px;
 }
 
-.recipes .grid .column p {
+.recipes .grid .column ul li {
 	color: #191919;
 	padding: 0 20px 20px 20px;
 	transition-property: text-shadow;
 	transition-duration: 1s; 
 }
 
-.recipes .grid .column p:hover {
+.recipes .grid .column ul li:hover {
 	text-shadow: 0 0 1em #fff;
 }
 
