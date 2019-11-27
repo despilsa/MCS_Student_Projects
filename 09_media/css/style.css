@@ -1,6 +1,7 @@
 @import url(reset.css);
 
 body {
+	height: 100%;
 	font-family: Helvetica;
 	font-weight: bold;
 	font-size: 20px;
@@ -93,6 +94,10 @@ body {
 @media screen and (min-width: 668px) {
 	body {
 		font-size: 30px;
+	}
+
+	.container {
+		min-height: calc(100vh - 60px);
 	}
 
 	.header p, .footer p, .button a {
